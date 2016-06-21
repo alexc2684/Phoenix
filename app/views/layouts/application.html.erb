@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Phoenix</title>
+  <title>Phoenix Consulting Group</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="footer, links, icons" />
+  <link rel="stylesheet" href="/stylesheets/demo.css">
+  <link rel="stylesheet" href="/stylesheets/footer-distributed.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 </head>
 <body>
   <nav class="navbar navbar-default navbar-fixed-top">
@@ -24,14 +29,41 @@
         <ul class="nav navbar-nav">
           <li class = "<%= 'active' if request.fullpath == '/' %>"><a href="/"> Home <span class="sr-only">(current)</span></a></li>
           <li class = "<%= 'active' if request.fullpath == '/about' %>"> <a href="/about">About</a> </li>
-          <li class = "<%= 'active' if request.fullpath == '/team' %>"><a href="/team"> Team </a></li>
+          <li class = "<%= 'active' if request.fullpath == '/team' %>"><a href="/team"> Who We Are </a></li>
           <li class = "<%= 'active' if request.fullpath == '/clients' %>"><a href="/clients"> Clients and Sponsors </a></li>
           <li class = "<%= 'active' if request.fullpath == '/apply' %>"><a href="/apply"> Apply </a></li>
         </ul>
       </div>
     </div>
   </nav>
-<%= yield %>
+  <%= yield %>
+  <div id="push"></div>
+  <footer class="footer-distributed">
+      <div class="footer-right">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-github"></i></a>
+      </div>
 
+      <div class="footer-left">
+
+        <p class="footer-links">
+          <a href="/">Home</a>
+          ·
+          <a href="/about">About</a>
+          ·
+          <a href="/team">Who We Are</a>
+          ·
+          <a href="/clients">Clients and Sponsors</a>
+          ·
+          <a href="/apply">Apply</a>
+          .
+          <a> Contact </a>
+        </p>
+
+        <p>Designed by Alex Chan and Andrew Nam &copy; 2016</p>
+      </div>
+    </footer>
 </body>
 </html>
