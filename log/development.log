@@ -15548,3 +15548,165 @@ Started GET "/assets/bootstrap-sprockets" for ::1 at 2016-06-20 22:30:33 -0700
 
 
 Started GET "/assets/bootstrap" for ::1 at 2016-06-20 22:30:33 -0700
+
+
+Started GET "/" for ::1 at 2016-06-22 18:06:53 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1427.7ms)
+Completed 200 OK in 1518ms (Views: 1510.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-06-22 18:06:55 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 22ms (Views: 21.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-f33a07babf58cce2220fce3d502b67d8c6c37fda15e672930847e58e86201787.css?body=1" for ::1 at 2016-06-22 18:06:55 -0400
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-06-22 18:06:55 -0400
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2016-06-22 18:06:55 -0400
+
+
+Started GET "/assets/home.self-9620d0b2615d208ba0fd4875f9bf1f40b616e3464edae8eed027c7d04e45e01d.css?body=1" for ::1 at 2016-06-22 18:06:55 -0400
+
+
+Started GET "/assets/bootstrap-sprockets" for ::1 at 2016-06-22 18:06:55 -0400
+
+
+Started GET "/assets/bootstrap" for ::1 at 2016-06-22 18:06:55 -0400
+
+
+Started GET "/about" for ::1 at 2016-06-22 18:07:00 -0400
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 16ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/team" for ::1 at 2016-06-22 18:07:04 -0400
+Processing by PagesController#team as HTML
+  Rendered pages/team.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 19ms (Views: 18.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/clients" for ::1 at 2016-06-22 18:07:05 -0400
+Processing by PagesController#clients as HTML
+  Rendered pages/clients.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/apply" for ::1 at 2016-06-22 18:07:06 -0400
+Processing by PagesController#apply as HTML
+  Rendered pages/apply.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 18ms (Views: 17.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/apply" for ::1 at 2016-06-22 18:07:07 -0400
+Processing by PagesController#apply as HTML
+  Rendered pages/apply.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 14ms (Views: 13.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/clients" for ::1 at 2016-06-22 18:07:07 -0400
+Processing by PagesController#clients as HTML
+  Rendered pages/clients.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 35ms (Views: 34.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-06-22 18:07:09 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 24ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-sprockets" for ::1 at 2016-06-22 18:07:09 -0400
+
+
+Started GET "/assets/bootstrap" for ::1 at 2016-06-22 18:07:09 -0400
+
+
+Started GET "/about" for ::1 at 2016-06-22 18:07:09 -0400
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 26ms (Views: 25.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/clients" for ::1 at 2016-06-22 18:08:44 -0400
+Processing by PagesController#clients as HTML
+  Rendered pages/clients.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 182ms (Views: 175.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/clients" for ::1 at 2016-06-22 18:10:24 -0400
+Processing by PagesController#clients as HTML
+  Rendered pages/clients.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 173ms (Views: 167.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-f33a07babf58cce2220fce3d502b67d8c6c37fda15e672930847e58e86201787.css?body=1" for ::1 at 2016-06-22 18:10:24 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-22 18:10:24 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-22 18:10:24 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-06-22 18:10:24 -0400
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-06-22 18:10:24 -0400
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-22 18:10:24 -0400
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-22 18:10:24 -0400
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2016-06-22 18:10:24 -0400
+
+
+Started GET "/contact" for ::1 at 2016-06-22 18:10:25 -0400
+Processing by PagesController#contact as HTML
+  Rendered pages/contact.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 36ms (Views: 35.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for ::1 at 2016-06-22 18:11:01 -0400
+Processing by PagesController#contact as HTML
+  Rendered pages/contact.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 201ms (Views: 194.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-f33a07babf58cce2220fce3d502b67d8c6c37fda15e672930847e58e86201787.css?body=1" for ::1 at 2016-06-22 18:11:01 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-22 18:11:01 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-22 18:11:01 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-06-22 18:11:01 -0400
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-22 18:11:01 -0400
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-06-22 18:11:01 -0400
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-22 18:11:01 -0400
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2016-06-22 18:11:01 -0400
+
+
+Started GET "/contact" for ::1 at 2016-06-22 18:11:03 -0400
+Processing by PagesController#contact as HTML
+  Rendered pages/contact.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 40ms (Views: 39.5ms | ActiveRecord: 0.0ms)
