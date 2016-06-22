@@ -2,11 +2,21 @@
 <html lang = "en-US">
   <head>
     <meta charset="utf-8">
+    <%= stylesheet_link_tag  'home', media: 'all', 'data-turbolinks-track' => true %>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <%= javascript_include_tag 'home', 'data-turbolinks-track' => true %>
   </head>
-
-    <h1> Welcome to Phoenix Consulting</h1>
-    <a href="/about">About <br></a>
-    <!---<img src = 'http://img14.deviantart.net/e794/i/2012/334/a/4/phoenix_final07_by_eedenartwork-d5mohzq.jpg'> --->
-    <p> What we do <br></p>
-    <p> Phoenix Consulting at Berkeley does consulting for biotech companies around the Bay Area.</p>
+  <body>
+	<div class="jumbotron">
+			<div class="container">
+  				<h1>Welcome to Phoenix Consulting Group</h1>
+  				<p class="lead">Providing Data-Driven Business Solutions for the Biotech Industry</p>
+  				<a class="btn btn-primary btn-lg" href="/about">Learn More</a>
+  			</div>
+		</div>
+	<div class="container-fluid">
+    	<h1> <br></h1>
+    	<p> </p>
+	</div>
+</body>
 </html>

@@ -40,3 +40,12 @@ li a:hover:not(.active) {
     background-color: gray;
 }
 */
+.jumbotron1 {
+  display: flex;
+  align-items: center;
+  background-image: url('/images/PCG_logo.jpeg');
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
