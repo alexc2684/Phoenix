@@ -27622,3 +27622,42 @@ Started GET "/assets/bootstrap-sprockets" for ::1 at 2016-06-23 05:31:21 -0700
 
 
 Started GET "/assets/bootstrap" for ::1 at 2016-06-23 05:31:21 -0700
+
+
+Started GET "/" for ::1 at 2016-06-23 05:38:26 -0700
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (309.2ms)
+Completed 200 OK in 430ms (Views: 422.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-23 05:38:27 -0700
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-23 05:38:27 -0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-06-23 05:38:27 -0700
+
+
+Started GET "/assets/application.self-9fc8d28732e62ebca1801572d0a60348dd0840024fec7370410b026ee16c9521.css?body=1" for ::1 at 2016-06-23 05:38:27 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-23 05:38:27 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-06-23 05:38:27 -0700
+
+
+Started GET "/assets/home.self-cfb19f5a047901da16d979acfbadae08cdaf2b7c0f8b97990fc374a0541830ad.css?body=1" for ::1 at 2016-06-23 05:38:27 -0700
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-23 05:38:27 -0700
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2016-06-23 05:38:27 -0700
+
+
+Started GET "/assets/bootstrap-sprockets" for ::1 at 2016-06-23 05:38:27 -0700
+
+
+Started GET "/assets/bootstrap" for ::1 at 2016-06-23 05:38:27 -0700
