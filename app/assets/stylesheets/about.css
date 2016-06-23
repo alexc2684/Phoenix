@@ -1,11 +1,11 @@
 .container {
-	padding: 40px;
+	padding: 20px;
 	margin: 40px;
-	background-color: #dddddd;
+	background-color: #eeeeee;
 }
 
 .col-md-8 {
-	text-align: left;
+	text-align: right;
 }
 
 .col-md-8 h1 {
