@@ -1,0 +1,13 @@
+.jumbotron {
+	text-align: center;
+	height: 500px;
+	vertical-align: center;
+}
+
+.jumbotron p {
+	margin: 60px;
+}
+
+.jumbotron h1{
+	margin: 40px;
+}
