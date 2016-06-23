@@ -1,11 +1,15 @@
  @import "bootstrap-sprockets";
  @import "bootstrap";
- 
+
 .jumbotron {
-  background: url('/images/PCG_logo.jpeg') no-repeat center center;
-  height: 400px;
-  color: white;
+  background-image: url("/images/PCG_logo.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+  height: 500px;
   text-shadow: #444 0 1px 1px;
+  vertical-align: center;
+  background-color: #ffffff;
 }
 
 .btn.btn-primary {
@@ -20,7 +24,7 @@
 
 .container {
   background: transparent;
-  z-index: 20;
+  margin-top: 40px;
 }
 
 .container h1 {
@@ -30,4 +34,28 @@
 
 .container-fluid {
   background: white;
+}
+
+.carousel-inner {
+  display: block;
+  margin: auto;
+  height: 400px;
+}
+
+.item img {
+  vertical-align: 50px;
+}
+
+.item {
+  height: 400px;
+
+}
+
+.carousel-caption {
+  margin-bottom: 50px;
+}
+
+.carousel-indicators li{
+  background-color:#999999;
+  border-color: #999999;
 }
