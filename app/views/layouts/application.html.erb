@@ -8,12 +8,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="keywords" content="footer, links, icons" />
   <link rel="stylesheet" href="/stylesheets/demo.css">
-  <link rel="stylesheet" href="/stylesheets/footer-distributed.css">
+  <link rel="stylesheet" href="/stylesheets/footer-distributed-with-contact-form.css">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 </head>
-<body>
   <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container-fluid">
+    <div id="nav" class="container-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
         data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -22,7 +21,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="/"> <img src="/images/PCG_logo.jpeg" height=30 width=70 align="middle"/> </a>
+        <a class="navbar-brand" href="/"> <img src="/images/icons&logos/PCG Icon 16pt 062416 v4.png" height=32/> </a>
       </div>
 
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -37,17 +36,15 @@
       </div>
     </div>
   </nav>
-  <%= yield %>
-  <div id="push"></div>
+  <body>
+   <%= yield %>
+  </body>
+ 
   <footer class="footer-distributed">
-      <div class="footer-right">
-        <a href="#"><i class="fa fa-facebook"></i></a>
-        <a href="#"><i class="fa fa-twitter"></i></a>
-        <a href="#"><i class="fa fa-linkedin"></i></a>
-        <a href="#"><i class="fa fa-github"></i></a>
-      </div>
 
       <div class="footer-left">
+
+        <img src="/images/icons&Logos/PCG Text 16pt 062416 v4.png" />
 
         <p class="footer-links">
           <a href="/">Home</a>
@@ -63,8 +60,27 @@
           <a href="/contact"> Contact </a>
         </p>
 
-        <p>Designed by Alex Chan and Andrew Nam &copy; 2016</p>
+        <p class="footer-company-name">Designed by Alex Chan and Andrew Nam &copy; 2016</p>
+
+        <div class="footer-icons">
+            <p> Find us on Facebook and LinkedIn </p>
+        </div>
+
       </div>
+
+      <div class="footer-right">
+
+        <p>Contact Us</p>
+
+        <form action="MAILTO:ucbphoenixconsulting@gmail.com" method="post">
+
+          <input type="text" name="email" placeholder="Email" />
+          <textarea name="message" placeholder="Message"></textarea>
+          <button>Send</button>
+
+        </form>
+
+      </div>
+
     </footer>
-</body>
 </html>

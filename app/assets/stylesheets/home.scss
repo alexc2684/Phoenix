@@ -2,14 +2,14 @@
  @import "bootstrap";
 
 .jumbotron {
-  background-image: url("/images/PCG_logo.jpeg");
+  background-image: url("/images/Icons&Logos/PCG Icon 112pt 062416 v4.png");
   background-repeat: no-repeat;
   background-position: center;
   color: #fff;
   height: 500px;
   text-shadow: #444 0 1px 1px;
   vertical-align: center;
-  background-color: #ffffff;
+  background-color: #eeeeee;
 }
 
 .btn.btn-primary {
@@ -32,9 +32,6 @@
 	font-variant: bold;
 }
 
-.container-fluid {
-  background: white;
-}
 
 .carousel-inner {
   display: block;
@@ -51,6 +48,14 @@
 
 }
 
+.carousel-inner {
+  background-color: #eeeeee;
+}
+
+.carousel-caption p {
+  font-size: 18px;
+}
+
 .carousel-caption {
   margin-bottom: 50px;
 }
@@ -58,4 +63,8 @@
 .carousel-indicators li{
   background-color:#999999;
   border-color: #999999;
+}
+
+#grey {
+  color: #666666;
 }
