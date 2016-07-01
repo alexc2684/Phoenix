@@ -1,0 +1,46 @@
+/* line 1, /Users/andrewnam/Documents/Phoenix/Phoenix/app/assets/stylesheets/clients.scss */
+#cont {
+  background-color: #eeeeee;
+  padding: 20px;
+  margin: 40px;
+  min-height: 300px;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* line 9, /Users/andrewnam/Documents/Phoenix/Phoenix/app/assets/stylesheets/clients.scss */
+#cont h1 {
+  font-size: 35px;
+  vertical-align: middle;
+}
+
+/* line 14, /Users/andrewnam/Documents/Phoenix/Phoenix/app/assets/stylesheets/clients.scss */
+.box {
+  height: fit-content;
+  margin: 0 auto;
+}
+
+/* line 19, /Users/andrewnam/Documents/Phoenix/Phoenix/app/assets/stylesheets/clients.scss */
+#inquire {
+  margin: 40px;
+  color: black;
+}
+
+/* line 24, /Users/andrewnam/Documents/Phoenix/Phoenix/app/assets/stylesheets/clients.scss */
+a {
+  color: black;
+}
+
+/* line 28, /Users/andrewnam/Documents/Phoenix/Phoenix/app/assets/stylesheets/clients.scss */
+p {
+  font-size: 18px;
+}
+
+/* line 32, /Users/andrewnam/Documents/Phoenix/Phoenix/app/assets/stylesheets/clients.scss */
+h3 {
+  font-size: 32px;
+}
+
+/* line 36, /Users/andrewnam/Documents/Phoenix/Phoenix/app/assets/stylesheets/clients.scss */
+a:hover {
+  color: #b30000;
+}
