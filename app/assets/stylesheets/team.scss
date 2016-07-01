@@ -1,37 +1,63 @@
-.col-md-3 {
+#off {
 	background-color: #cccccc;
 	margin: 20px;
 	height: 100px;
 	width: 300px;
 }
-.col-md-3:hover {
+#off:hover {
 	background-color: #999999;
 }
 
-.col-md-3:hover h6{
+#off:hover h6{
 	visibility: visible;
+}
+
+#mjr3 {
+	margin: 20px;
+	text-align: center;
+	background-color: #cccccc;
+	width: 20%;
+	height: 100px;
+	margin-left: 30px;
+}
+
+#mjr4 {
+	margin: 20px;
+	text-align: center;
+	background-color: #cccccc;
+	width: 25%;
+	height: 100px; 
+	margin-left: 60px;
 }
 
 #who {
 	text-align: center;
+	background-color: #eeeeee;
+	margin: 40px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
 }
 
 #majors {
 	text-align: left;
+	background-color: #eeeeee;
+	margin: 40px;
+	font-family: 'Raleway', sans-serif;
 }
 
 #companies {
 	text-align: right;
+	background-color: #eeeeee;
+	margin: 40px;
+	font-family: 'Raleway', sans-serif;
 }
 
 #officers {
 	position: relative;
 	text-align: center;
-}
-
-.container {
 	background-color: #eeeeee;
 	margin: 40px;
+	font-family: 'Raleway', sans-serif;
 }
 
 .grid {
@@ -43,11 +69,16 @@
 }
 #spacer {
 	background: transparent;
+	margin: 20px;
+	height: 100px;
+	width: 300px;
 }
 
 #list {
 	width: fit-content;
 	margin: auto;
+	background-color: #eeeeee;
+	margin: 40px;
 }
 
 h6 {
@@ -56,4 +87,8 @@ h6 {
 
 a {
 	color: black;
+}
+
+a:hover {
+	color: #b30000;
 }

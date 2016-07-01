@@ -9,8 +9,9 @@
   <meta name="keywords" content="footer, links, icons" />
   <link rel="stylesheet" href="/stylesheets/demo.css">
   <link rel="stylesheet" href="/stylesheets/footer-distributed-with-contact-form.css">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Oswald|Raleway" rel="stylesheet">
 </head>
+<body>
   <nav class="navbar navbar-default navbar-fixed-top">
     <div id="nav" class="container-fluid">
       <div class="navbar-header">
@@ -31,20 +32,19 @@
           <li class = "<%= 'active' if request.fullpath == '/team' %>"><a href="/team">The Team</a></li>
           <li class = "<%= 'active' if request.fullpath == '/clients' %>"><a href="/clients"> Clients and Sponsors </a></li>
           <li class = "<%= 'active' if request.fullpath == '/apply' %>"><a href="/apply"> Apply </a></li>
-          <li class = "<%= 'active' if request.fullpath == '/contact' %>"><a href="/contact"> Contact </a></li>
+          <!--<li class = "<%= 'active' if request.fullpath == '/contact' %>"><a href="/contact"> Contact </a></li>-->
         </ul>
       </div>
     </div>
   </nav>
-  <body>
+  
    <%= yield %>
-  </body>
  
   <footer class="footer-distributed">
 
       <div class="footer-left">
 
-        <img src="/images/Icons_Logos/PCG Text 16pt 062416 v4.png" />
+        <img src="/images/Icons_Logos/PCG Text 32pt v4 061216.png" />
 
         <p class="footer-links">
           <a href="/">Home</a>
@@ -56,8 +56,8 @@
           <a href="/clients">Clients and Sponsors</a>
           ·
           <a href="/apply">Apply</a>
-          .
-          <a href="/contact"> Contact </a>
+          <!--.
+          <a href="/contact"> Contact </a>-->
         </p>
 
         <p class="footer-company-name">Designed by Alex Chan and Andrew Nam &copy; 2016</p>
@@ -83,4 +83,5 @@
       </div>
 
     </footer>
+      </body>
 </html>

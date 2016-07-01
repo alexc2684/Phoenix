@@ -1,4 +1,4 @@
-.container {
+#cont {
 	padding: 20px;
 	margin: 40px;
 	background-color: #eeeeee;
@@ -13,6 +13,11 @@
 	font-size: 30px;
 }
 
-.col-md-8 p {
+#cont {
 	font-size: 18px;
+	font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+	color: #dddddd;
 }
