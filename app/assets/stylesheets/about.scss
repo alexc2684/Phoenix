@@ -13,9 +13,27 @@
 	font-size: 30px;
 }
 
+.col-md-4 img{
+	vertical-align: center;
+	min-height: 250px;
+}
+
 #cont {
 	font-size: 18px;
 	font-family: 'Raleway', sans-serif;
+}
+
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:center;
+    /* inline-block space fix */
+    margin-right:-4px;
+    vertical-align: text-bottom;
 }
 
 h2 {

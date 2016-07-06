@@ -28,9 +28,13 @@
 }
 
 #jmb h1 {
-  font-family: 'Oswald', sans-serif;
 	font-size: 60px;
 	font-variant: bold;
+}
+
+#jmb p{
+  font-variant: bold;
+  font-size: 28px;
 }
 
 .carousel-inner {
@@ -61,6 +65,7 @@
 }
 
 .carousel-indicators li{
+  z-index: -5;
   background-color:#999999;
   border-color: #999999;
 }
