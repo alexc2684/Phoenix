@@ -1,0 +1,50 @@
+/* line 1, /Users/andrewnam/Documents/Phoenix/Phoenix/app/assets/stylesheets/about.scss */
+#cont {
+  padding: 20px;
+  margin: 40px;
+  background-color: #eeeeee;
+}
+
+/* line 7, /Users/andrewnam/Documents/Phoenix/Phoenix/app/assets/stylesheets/about.scss */
+.col-md-8 {
+  text-align: right;
+}
+
+/* line 11, /Users/andrewnam/Documents/Phoenix/Phoenix/app/assets/stylesheets/about.scss */
+.col-md-8 h1 {
+  text-align: right;
+  font-size: 30px;
+}
+
+/* line 16, /Users/andrewnam/Documents/Phoenix/Phoenix/app/assets/stylesheets/about.scss */
+.col-md-4 img {
+  vertical-align: center;
+  min-height: 250px;
+}
+
+/* line 21, /Users/andrewnam/Documents/Phoenix/Phoenix/app/assets/stylesheets/about.scss */
+#cont {
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* line 26, /Users/andrewnam/Documents/Phoenix/Phoenix/app/assets/stylesheets/about.scss */
+.row-centered {
+  text-align: center;
+}
+
+/* line 29, /Users/andrewnam/Documents/Phoenix/Phoenix/app/assets/stylesheets/about.scss */
+.col-centered {
+  display: inline-block;
+  float: none;
+  /* reset the text-align */
+  text-align: center;
+  /* inline-block space fix */
+  margin-right: -4px;
+  vertical-align: text-bottom;
+}
+
+/* line 39, /Users/andrewnam/Documents/Phoenix/Phoenix/app/assets/stylesheets/about.scss */
+h2 {
+  color: #dddddd;
+}
