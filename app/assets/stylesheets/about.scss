@@ -1,0 +1,41 @@
+#cont {
+	padding: 20px;
+	margin: 40px;
+	background-color: #eeeeee;
+}
+
+.col-md-8 {
+	text-align: right;
+}
+
+.col-md-8 h1 {
+	text-align: right;
+	font-size: 30px;
+}
+
+.col-md-4 img{
+	vertical-align: center;
+	min-height: 250px;
+}
+
+#cont {
+	font-size: 18px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:center;
+    /* inline-block space fix */
+    margin-right:-4px;
+    vertical-align: text-bottom;
+}
+
+h2 {
+	color: #dddddd;
+}

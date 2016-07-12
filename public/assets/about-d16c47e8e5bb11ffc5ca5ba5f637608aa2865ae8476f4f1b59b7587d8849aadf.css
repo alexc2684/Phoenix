@@ -1,0 +1,28 @@
+/* line 1, /Users/andrewnam/Documents/Phoenix/Phoenix/app/assets/stylesheets/about.scss */
+#cont {
+  padding: 20px;
+  margin: 40px;
+  background-color: #eeeeee;
+}
+
+/* line 7, /Users/andrewnam/Documents/Phoenix/Phoenix/app/assets/stylesheets/about.scss */
+.col-md-8 {
+  text-align: right;
+}
+
+/* line 11, /Users/andrewnam/Documents/Phoenix/Phoenix/app/assets/stylesheets/about.scss */
+.col-md-8 h1 {
+  text-align: right;
+  font-size: 30px;
+}
+
+/* line 16, /Users/andrewnam/Documents/Phoenix/Phoenix/app/assets/stylesheets/about.scss */
+#cont {
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* line 21, /Users/andrewnam/Documents/Phoenix/Phoenix/app/assets/stylesheets/about.scss */
+h2 {
+  color: #dddddd;
+}

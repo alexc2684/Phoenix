@@ -16,3 +16,4 @@
 //= require_tree .
 //= require bootstrap
 //= require home
+//= require turbolinks_transitions

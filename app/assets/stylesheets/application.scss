@@ -17,7 +17,31 @@
 
  body {
    padding-top: 70px;
-   font-family:"Helvetica";
+   font-family:'Raleway', sans-serif;
    text-align: center;
    z-index: -10;
+}
+
+ #nav {
+ 	font-family:'Raleway', sans-serif;
+ 	height: 40px;
  }
+
+html, body {
+    height: 100%;
+}
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -400px; /* the bottom margin is the negative value of the footer's height */
+    background-color: white;
+}
+.push {
+    height: 400px; /* .push must be the same height as .footer */
+    background-color: white;
+}
+ 
+#logo {
+	padding-top: 28%;
+}

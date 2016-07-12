@@ -1,0 +1,36 @@
+.container {
+	padding: 20px;
+	margin: 40px;
+	background-color: #dddddd;
+	text-align: left;
+}
+
+#main {
+	text-align: left;
+	background-color: #eeeeee;
+	position: relative;
+	min-width: 500px;
+	min-height: 500px;
+}
+
+#inner {
+	text-align: left;
+	min-height: 300px;
+	vertical-align: center;
+	font-size: 18px;
+	min-width: 350px;
+
+}
+
+#inner p {
+	margin-top: 60px;
+	vertical-align: center;
+}
+
+a {
+	color: black;
+}
+
+a:hover {
+	color: #b30000;
+}
