@@ -10,4 +10,4 @@ To run website, run "rails server".
 
 Planning to be hosted on GitHub.
 
-Created by Alex Chan
+Created by Alex Chan and Andrew Nam
