@@ -1,4 +1,3 @@
-== README
 
 Website for Phoenix Consulting at UC Berkeley.
 
