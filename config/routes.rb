@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -9,6 +10,7 @@ Rails.application.routes.draw do
   get 'clients', to: 'pages#clients'
   get 'apply', to: 'pages#apply' #need get/post
   get 'contact', to: 'pages#contact'
+  #get 'new', to: 'devise/registrations#new'
 
   #get 'welcome', to: 'pages#home'
 
