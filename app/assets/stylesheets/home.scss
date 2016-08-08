@@ -5,7 +5,7 @@
   background-image: url("/images/Icons_Logos/PCG Icon 112pt 062416 v4.png");
   background-repeat: no-repeat;
   background-position: center;
-  color: #fff;
+  color: #555;
   height: 500px;
   text-shadow: #444 0 1px 1px;
   vertical-align: center;
@@ -49,7 +49,6 @@
 
 .item {
   height: 400px;
-
 }
 
 .carousel-inner {
@@ -71,5 +70,10 @@
 }
 
 #grey {
-  color: #666666;
+  color:#666666;
+}
+
+
+#white{
+  color:#ffffff;
 }
