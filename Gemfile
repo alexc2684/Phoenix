@@ -27,6 +27,7 @@ gem 'bootstrap-sass', '~> 3.3.6'
 gem 'rails_bootstrap_navbar'
 
 gem 'devise'
+gem 'devise-bootstrap-views'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

@@ -13,7 +13,7 @@
  */
  @import "bootstrap-sprockets";
  @import "bootstrap";
-
+ @import "devise_bootstrap_views";
 
  body {
    padding-top: 70px;
@@ -41,7 +41,7 @@ html, body {
     height: 400px; /* .push must be the same height as .footer */
     background-color: white;
 }
- 
+
 #logo {
 	padding-top: 28%;
 }
