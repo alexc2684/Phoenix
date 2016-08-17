@@ -28,6 +28,7 @@ gem 'rails_bootstrap_navbar'
 
 gem 'devise'
 gem 'devise-bootstrap-views'
+gem 'carrierwave'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

@@ -1,0 +1,52 @@
+<h1>Application</h1>
+<% if !@application.errors.empty? %>
+   <div class = "alert alert-error">
+      <ul>
+         <% @application.errors.full_messages.each do |msg| %>
+            <li><%= msg %></li>
+         <% end %>
+      </ul>
+
+   </div>
+<% end %>
+
+<% if user_signed_in? %>
+  <div class = "well" align="left">
+     <%= form_for @application, html: { multipart: true } do |f| %>
+        <p>
+          First Name <br /> <%= f.text_field :first_name %> 
+        </p>
+
+        <%= f.label :last_name %> <br />
+        <%= f.text_field :last_name %> <br />
+        <%= f.label :email %> <br />
+        <%= f.text_field :email %> <br />
+        <!-- regex for email -->
+        <%= f.label :year %> <br />
+        <%= f.text_field :year %> <br />
+        <!-- dropdown menu -->
+        <%= f.label :major %> <br />
+        <%= f.text_field :major %> <br />
+        <%= f.label :gpa %> <br />
+        <%= f.text_field :gpa %> <br />
+        <%= f.label :technical_gpa %> <br />
+        <%= f.text_field :technical_gpa %> <br />
+        <%= f.label :commitments %> <br />
+        <%= f.text_field :commitments %> <br />
+        <%= f.label :courses %> <br />
+        <%= f.text_field :courses %> <br />
+        <%= f.label :response_1 %> <br />
+        <%= f.text_field :response_1 %> <br />
+        <%= f.label :response_2%> <br />
+        <%= f.text_field :response_2 %> <br />
+        <!-- make last 4 fields bigger text boxes -->
+        <%= f.label :linkedin %> <br />
+        <%= f.text_field :linkedin %> <br />
+        <%= f.label :resume %>
+        <%= f.file_field :resume %>
+        <%= f.submit "Save", class: "btn btn-primary" %>
+     <% end %>
+  </div>
+<% else %>
+    <p> Please login to apply! </p>
+<% end %>
