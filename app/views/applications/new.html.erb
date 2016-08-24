@@ -11,42 +11,51 @@
 <% end %>
 
 <% if user_signed_in? %>
-  <div class = "well" align="left">
-     <%= form_for @application, html: { multipart: true } do |f| %>
-        <p>
-          First Name <br /> <%= f.text_field :first_name %> 
-        </p>
+  <% if @application.save %>
+    <h1>Your application has already been submitted!</h1>
+  <% else %>
 
-        <%= f.label :last_name %> <br />
-        <%= f.text_field :last_name %> <br />
-        <%= f.label :email %> <br />
-        <%= f.text_field :email %> <br />
-        <!-- regex for email -->
-        <%= f.label :year %> <br />
-        <%= f.text_field :year %> <br />
-        <!-- dropdown menu -->
-        <%= f.label :major %> <br />
-        <%= f.text_field :major %> <br />
-        <%= f.label :gpa %> <br />
-        <%= f.text_field :gpa %> <br />
-        <%= f.label :technical_gpa %> <br />
-        <%= f.text_field :technical_gpa %> <br />
-        <%= f.label :commitments %> <br />
-        <%= f.text_field :commitments %> <br />
-        <%= f.label :courses %> <br />
-        <%= f.text_field :courses %> <br />
-        <%= f.label :response_1 %> <br />
-        <%= f.text_field :response_1 %> <br />
-        <%= f.label :response_2%> <br />
-        <%= f.text_field :response_2 %> <br />
-        <!-- make last 4 fields bigger text boxes -->
-        <%= f.label :linkedin %> <br />
-        <%= f.text_field :linkedin %> <br />
-        <%= f.label :resume %>
-        <%= f.file_field :resume %>
-        <%= f.submit "Save", class: "btn btn-primary" %>
-     <% end %>
-  </div>
+    <div class = "well" align="left">
+       <%= form_for @application, html: { multipart: true } do |f| %>
+          <div class="starred">
+            <p><b> First Name </b><br /> <%= f.text_field :first_name %></p>
+          </div>
+          <div class="starred">
+            <p><b> Last Name </b><br /> <%= f.text_field :last_name %></p>
+          </div>
+          <div class="starred">
+            <p><b> Email </b> <br /> <%= f.text_field :email %></p>
+          </div>
+          <!-- regex for email -->
+          <div class="starred">
+            <p><b> Year </b> <br /> <%= f.text_field :year %></p>
+          </div>
+          <!-- dropdown menu -->
+          <div class="starred">
+            <p><b> Major </b> <br /> <%= f.text_field :major %> </p>
+          </div>
+          <div class="starred">
+            <p><b> GPA </b> <br /> <%= f.text_field :gpa %> </p>
+          </div>
+          <p><b> Technical GPA </b> <br /> <%= f.text_field :technical_gpa %> </p>
+          <div class="starred">
+            <p><b> Commitments </b> <br /> <%= f.text_field :commitments %> </p>
+          </div>
+          <div class="starred">
+            <p><b> Courses </b> <br /> <%= f.text_field :courses %> </p>
+          </div>
+          <div class="starred">
+            <p><b> Response 1 </b> <br /> (Max 200 words) <br /> <%= f.text_field :response_1 %> <br /></p>
+          </div>
+          <!-- make last 4 fields bigger text boxes -->
+          <p><b> LinkedIn </b> <br /> <%= f.text_field :linkedin %> </p>
+          <div class="starred">
+            <p><b> Resume </b> <br /> <%= f.file_field :resume %> </p>
+          </div>
+          <%= f.submit "Save", class: "btn btn-primary" %>
+       <% end %>
+    </div>
+  <% end %>
 <% else %>
     <p> Please login to apply! </p>
 <% end %>
