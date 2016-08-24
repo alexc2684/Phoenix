@@ -15549,8 +15549,6 @@ Started GET "/assets/bootstrap-sprockets" for ::1 at 2016-06-20 22:30:33 -0700
 
 Started GET "/assets/bootstrap" for ::1 at 2016-06-20 22:30:33 -0700
 
-
-<<<<<<< HEAD
 Started GET "/about" for ::1 at 2016-06-21 11:36:50 -0700
 Processing by PagesController#about as HTML
   Rendered pages/about.html.erb within layouts/application (1.2ms)
@@ -20551,7 +20549,7 @@ Started GET "/assets/bootstrap-sprockets" for ::1 at 2016-06-22 00:55:38 -0700
 
 
 Started GET "/assets/bootstrap" for ::1 at 2016-06-22 00:55:38 -0700
-=======
+
 Started GET "/" for ::1 at 2016-06-22 18:06:53 -0400
 Processing by PagesController#home as HTML
   Rendered pages/home.html.erb within layouts/application (1427.7ms)
@@ -45817,7 +45815,7 @@ ActionView::Template::Error (undefined local variable or method `resource' for #
     27:             <div class="modal-body">
     28:               <%= simple_form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
     29:                 <%= f.error_notification %>
-    30: 
+    30:
     31:                 <div class="form-inputs">
   app/views/pages/apply.html.erb:28:in `_app_views_pages_apply_html_erb__2457168366651371516_70107168200360'
 
@@ -45847,7 +45845,7 @@ ActionView::Template::Error (undefined local variable or method `resource' for #
     27:             <div class="modal-body">
     28:               <%= simple_form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
     29:                 <%= f.error_notification %>
-    30: 
+    30:
     31:                 <div class="form-inputs">
   app/views/pages/apply.html.erb:28:in `_app_views_pages_apply_html_erb__2457168366651371516_70107180457940'
 
@@ -45950,7 +45948,7 @@ ActionView::Template::Error (undefined local variable or method `resource' for #
     27:             <div class="modal-body">
     28:               <%= simple_form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
     29:                 <%= f.error_notification %>
-    30: 
+    30:
     31:                 <div class="form-inputs">
   app/views/pages/apply.html.erb:28:in `_app_views_pages_apply_html_erb__3837590827106822937_70309039784360'
 
@@ -45980,7 +45978,7 @@ ActionView::Template::Error (undefined local variable or method `resource' for #
     27:             <div class="modal-body">
     28:               <%= simple_form_for(resource, as: user, url: registration_path(user)) do |f| %>
     29:                 <%= f.error_notification %>
-    30: 
+    30:
     31:                 <div class="form-inputs">
   app/views/pages/apply.html.erb:28:in `_app_views_pages_apply_html_erb__3837590827106822937_70309002951440'
 
@@ -46010,7 +46008,7 @@ ActionView::Template::Error (undefined local variable or method `user' for #<#<C
     27:             <div class="modal-body">
     28:               <%= simple_form_for(User, as: user, url: registration_path(user)) do |f| %>
     29:                 <%= f.error_notification %>
-    30: 
+    30:
     31:                 <div class="form-inputs">
   app/views/pages/apply.html.erb:28:in `_app_views_pages_apply_html_erb__3837590827106822937_70309003094240'
 
@@ -46040,7 +46038,7 @@ ActionView::Template::Error (undefined local variable or method `user' for #<#<C
     27:             <div class="modal-body">
     28:               <%= simple_form_for(User, as: user, url: registration_path(user)) do |f| %>
     29:                 <%= f.error_notification %>
-    30: 
+    30:
     31:                 <div class="form-inputs">
   app/views/pages/apply.html.erb:28:in `_app_views_pages_apply_html_erb__3837590827106822937_70309003094240'
 
@@ -46071,7 +46069,7 @@ Did you mean?  simple_format):
     27:             <div class="modal-body">
     28:               <%= simple_form_for(User, as: User, url: registration_path(User)) do |f| %>
     29:                 <%= f.error_notification %>
-    30: 
+    30:
     31:                 <div class="form-inputs">
   app/views/pages/apply.html.erb:28:in `_app_views_pages_apply_html_erb__3837590827106822937_70309000995160'
 
@@ -46102,7 +46100,7 @@ Did you mean?  simple_format):
     27:             <div class="modal-body">
     28:               <%= simple_form_for(User, as: User, url: registration_path(User)) do |f| %>
     29:                 <%= f.error_notification %>
-    30: 
+    30:
     31:                 <div class="form-inputs">
   app/views/pages/apply.html.erb:28:in `_app_views_pages_apply_html_erb__3837590827106822937_70309000995160'
 
@@ -46591,8 +46589,8 @@ This may happen for two reasons:
 
 Started GET "/" for ::1 at 2016-08-10 11:55:16 -0400
 
-ArgumentError (Invalid route name, already in use: 'new_user_session' 
-You may have defined two routes with the same name using the `:as` option, or you may be overriding a route already defined by a resource with the same naming. For the latter, you can restrict the routes created with `resources` as explained here: 
+ArgumentError (Invalid route name, already in use: 'new_user_session'
+You may have defined two routes with the same name using the `:as` option, or you may be overriding a route already defined by a resource with the same naming. For the latter, you can restrict the routes created with `resources` as explained here:
 http://guides.rubyonrails.org/routing.html#restricting-the-routes-created):
   config/routes.rb:13:in `block in <top (required)>'
   config/routes.rb:1:in `<top (required)>'
@@ -48290,7 +48288,7 @@ Processing by ApplicationsController#new as HTML
 Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
 
 SyntaxError (/Users/alexchan/Documents/cs/Phoenix/app/models/application.rb:3: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
-  validates_presence_of :first_name, :last_name, 
+  validates_presence_of :first_name, :last_name,
                          ^):
   app/models/application.rb:3: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
   app/controllers/applications_controller.rb:6:in `new'
@@ -48315,7 +48313,7 @@ Processing by ApplicationsController#new as HTML
 Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
 
 SyntaxError (/Users/alexchan/Documents/cs/Phoenix/app/models/application.rb:3: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
-  validates_presence_of :first_name, :last_name, 
+  validates_presence_of :first_name, :last_name,
                          ^):
   app/models/application.rb:3: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
   app/controllers/applications_controller.rb:6:in `new'
