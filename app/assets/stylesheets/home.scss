@@ -38,19 +38,15 @@
 }
 
 .carousel-inner {
-  background-color: #eeeeee;
+  background-color: #ffffff;
   display: block;
   margin: auto;
 }
 
 .carousel-inner h3 {
-  text-shadow: #444 0 2px 2px;
 
 }
 
-.item img {
-  padding-top: 20px;
-}
 
 .item {
   height: 400px;
@@ -58,15 +54,15 @@
 
 .carousel-caption p {
   font-size: 18px;
-  text-shadow: #444 0 2px 2px;
 }
 
 .carousel-caption {
-  margin-bottom: 50px;
+  color: #555;
+  margin-bottom: 10px;
 }
 
 .carousel-indicators {
-  //padding-bottom: 5px;
+  padding-bottom: 5px;
 }
 
 .carousel-indicators li {
@@ -74,12 +70,10 @@
   background-color:#999999;
   border-color: #999999;
 }
-
-#grey {
-  color:#666666;
+#big img{
+  padding-top: 20px;
 }
 
-
-#white{
-  color:#ffffff;
+#small img{
+  padding-top: 40px;
 }

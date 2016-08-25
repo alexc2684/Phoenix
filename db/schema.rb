@@ -16,23 +16,6 @@ ActiveRecord::Schema.define(version: 20160816224519) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "applicants", force: :cascade do |t|
-    t.datetime "created_at",       null: false
-    t.datetime "updated_at",       null: false
-    t.string   "first_name"
-    t.string   "last_name"
-    t.string   "phone"
-    t.string   "year"
-    t.string   "major"
-    t.string   "GPA"
-    t.string   "tech_GPA"
-    t.string   "linkedin"
-    t.text     "short_response_1"
-    t.text     "short_response_2"
-    t.text     "course_load"
-    t.text     "commitments"
-  end
-
   create_table "applications", force: :cascade do |t|
     t.string   "first_name"
     t.string   "last_name"
