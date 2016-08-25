@@ -17,6 +17,7 @@
 
     <div class = "well" align="left">
        <%= form_for @application, html: { multipart: true } do |f| %>
+       <div class = "col-md-6">
           <div class="starred">
             <p><b> First Name </b><br /> <%= f.text_field :first_name %></p>
           </div>
@@ -32,12 +33,14 @@
           </div>
           <!-- dropdown menu -->
           <div class="starred">
-            <p><b> Major </b> <br /> <%= f.text_field :major %> </p>
+            <p><b> Major(s) </b> <br /> <%= f.text_field :major %> </p>
           </div>
           <div class="starred">
-            <p><b> GPA </b> <br /> <%= f.text_field :gpa %> </p>
+            <p><b> GPA </b> <br id="note"> For freshman, inpit high school GPA  <br /> <%= f.text_field :gpa %> </p>
           </div>
           <p><b> Technical GPA </b> <br /> <%= f.text_field :technical_gpa %> </p>
+        </div>
+        <div class = "col-md-6">
           <div class="starred">
             <p><b> Commitments </b> <br /> <%= f.text_field :commitments %> </p>
           </div>
@@ -45,14 +48,16 @@
             <p><b> Courses </b> <br /> <%= f.text_field :courses %> </p>
           </div>
           <div class="starred">
-            <p><b> Response 1 </b> <br /> (Max 200 words) <br /> <%= f.text_field :response_1 %> <br /></p>
+            <p><b> Describe the importance of the emerging bioech industry </b> <br /> ~150 words (soft cap) <br /> <%= f.text_field :response_1 %> <br /></p>
           </div>
           <!-- make last 4 fields bigger text boxes -->
           <p><b> LinkedIn </b> <br /> <%= f.text_field :linkedin %> </p>
           <div class="starred">
             <p><b> Resume </b> <br /> <%= f.file_field :resume %> </p>
           </div>
-          <%= f.submit "Save", class: "btn btn-primary" %>
+        </div>
+          <div>
+          <%= f.submit "Submit", class: "btn btn-primary" %>
        <% end %>
     </div>
   <% end %>
