@@ -1,0 +1,41 @@
+/* line 1, /Users/andrewnam/Documents/websites/Phoenix/app/assets/stylesheets/contact.scss */
+.container {
+  padding: 20px;
+  margin: 40px;
+  background-color: #dddddd;
+  text-align: left;
+}
+
+/* line 8, /Users/andrewnam/Documents/websites/Phoenix/app/assets/stylesheets/contact.scss */
+#main {
+  text-align: left;
+  background-color: #eeeeee;
+  position: relative;
+  min-width: 500px;
+  min-height: 500px;
+}
+
+/* line 16, /Users/andrewnam/Documents/websites/Phoenix/app/assets/stylesheets/contact.scss */
+#inner {
+  text-align: left;
+  min-height: 300px;
+  vertical-align: center;
+  font-size: 18px;
+  min-width: 350px;
+}
+
+/* line 25, /Users/andrewnam/Documents/websites/Phoenix/app/assets/stylesheets/contact.scss */
+#inner p {
+  margin-top: 60px;
+  vertical-align: center;
+}
+
+/* line 30, /Users/andrewnam/Documents/websites/Phoenix/app/assets/stylesheets/contact.scss */
+a {
+  color: black;
+}
+
+/* line 34, /Users/andrewnam/Documents/websites/Phoenix/app/assets/stylesheets/contact.scss */
+a:hover {
+  color: #b30000;
+}
