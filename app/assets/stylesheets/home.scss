@@ -38,32 +38,38 @@
 }
 
 .carousel-inner {
+  background-color: #eeeeee;
   display: block;
   margin: auto;
-  height: 400px;
+}
+
+.carousel-inner h3 {
+  text-shadow: #444 0 2px 2px;
+
 }
 
 .item img {
-  vertical-align: 50px;
+  padding-top: 20px;
 }
 
 .item {
   height: 400px;
 }
 
-.carousel-inner {
-  background-color: #eeeeee;
-}
-
 .carousel-caption p {
   font-size: 18px;
+  text-shadow: #444 0 2px 2px;
 }
 
 .carousel-caption {
   margin-bottom: 50px;
 }
 
-.carousel-indicators li{
+.carousel-indicators {
+  //padding-bottom: 5px;
+}
+
+.carousel-indicators li {
   z-index: -5;
   background-color:#999999;
   border-color: #999999;
