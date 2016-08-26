@@ -8,6 +8,9 @@
 	font-family: 'Raleway', sans-serif;
 	padding: 45px 50px;
 	margin-top: 80px;
+	bottom: 0;
+    left: 0;
+    position: relative;
 }
 
 #logos {
