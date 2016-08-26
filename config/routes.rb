@@ -18,7 +18,7 @@ Rails.application.routes.draw do
   get 'about', to: 'pages#about'
   get 'team', to: 'pages#team'
   get 'clients', to: 'pages#clients'
-  get 'apply', to: "pages#apply "#'applications#new' 
+  get 'apply', to: 'pages#apply'#'applications#new' 
   get 'contact', to: 'pages#contact'
   resources :applications, only: [:new, :create, :destroy]
 
