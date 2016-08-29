@@ -10,7 +10,7 @@ class ApplicationsController < ApplicationController
     @application = Application.new(application_params)
 
     if @application.save
-       redirect_to resumes_path, notice: "Your application has already been submitted!"
+       redirect_to apply_path, notice: "Your application has already been submitted!"
        #maybe have the save
     else
        render "new"
@@ -18,6 +18,9 @@ class ApplicationsController < ApplicationController
   end
 
   def destroy
+  end
+
+  def response_2
   end
 
   private

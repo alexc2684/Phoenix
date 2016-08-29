@@ -24,7 +24,6 @@ ActiveRecord::Schema.define(version: 20160816224519) do
     t.string   "gpa"
     t.string   "technical_gpa"
     t.text     "response_1"
-    t.text     "response_2"
     t.string   "linkedin"
     t.string   "resume"
     t.datetime "created_at",    null: false
@@ -32,6 +31,7 @@ ActiveRecord::Schema.define(version: 20160816224519) do
     t.string   "email"
     t.text     "commitments"
     t.text     "courses"
+    t.text     "response_2"
   end
 
   create_table "users", force: :cascade do |t|
