@@ -1,0 +1,123 @@
+/* line 1, /Users/andrewnam/Documents/websites/Phoenix/app/assets/stylesheets/team.scss */
+#off {
+  background-color: #cccccc;
+  margin: 1%;
+  height: 125px;
+  padding: 1%;
+}
+
+/* line 7, /Users/andrewnam/Documents/websites/Phoenix/app/assets/stylesheets/team.scss */
+#off:hover {
+  background-color: #999999;
+}
+
+/* line 11, /Users/andrewnam/Documents/websites/Phoenix/app/assets/stylesheets/team.scss */
+#off:hover h6 {
+  visibility: visible;
+}
+
+/* line 15, /Users/andrewnam/Documents/websites/Phoenix/app/assets/stylesheets/team.scss */
+#mjr3 {
+  text-align: center;
+  background-color: #cccccc;
+  margin: 1%;
+  padding: 2%;
+  height: 100px;
+}
+
+/* line 23, /Users/andrewnam/Documents/websites/Phoenix/app/assets/stylesheets/team.scss */
+#mjr3 h2 {
+  font-size: 2em;
+  margin: auto;
+  vertical-align: center;
+}
+
+/* line 29, /Users/andrewnam/Documents/websites/Phoenix/app/assets/stylesheets/team.scss */
+#who {
+  text-align: center;
+  background-color: #eeeeee;
+  margin: 40px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+}
+
+/* line 37, /Users/andrewnam/Documents/websites/Phoenix/app/assets/stylesheets/team.scss */
+#majors {
+  text-align: left;
+  background-color: #eeeeee;
+  margin: 40px;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* line 44, /Users/andrewnam/Documents/websites/Phoenix/app/assets/stylesheets/team.scss */
+#companies {
+  text-align: right;
+  background-color: #eeeeee;
+  margin: 40px;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* line 51, /Users/andrewnam/Documents/websites/Phoenix/app/assets/stylesheets/team.scss */
+#companies img {
+  height: 100%;
+  width: 100%;
+  max-width: 1500px;
+}
+
+/* line 57, /Users/andrewnam/Documents/websites/Phoenix/app/assets/stylesheets/team.scss */
+#officers {
+  position: relative;
+  text-align: center;
+  background-color: #eeeeee;
+  margin: 40px;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* line 65, /Users/andrewnam/Documents/websites/Phoenix/app/assets/stylesheets/team.scss */
+.grid {
+  margin: 40px;
+}
+
+/* line 69, /Users/andrewnam/Documents/websites/Phoenix/app/assets/stylesheets/team.scss */
+.row-fluid {
+  margin: auto;
+}
+
+/* line 73, /Users/andrewnam/Documents/websites/Phoenix/app/assets/stylesheets/team.scss */
+.row-centered {
+  text-align: center;
+}
+
+/* line 76, /Users/andrewnam/Documents/websites/Phoenix/app/assets/stylesheets/team.scss */
+.col-centered {
+  display: inline-block;
+  float: none;
+  /* reset the text-align */
+  text-align: center;
+  /* inline-block space fix */
+  margin-right: -4px;
+  vertical-align: text-top;
+}
+
+/* line 86, /Users/andrewnam/Documents/websites/Phoenix/app/assets/stylesheets/team.scss */
+#spacer {
+  background: transparent;
+  margin: 20px;
+  height: 100px;
+  width: 33%;
+}
+
+/* line 93, /Users/andrewnam/Documents/websites/Phoenix/app/assets/stylesheets/team.scss */
+h6 {
+  visibility: hidden;
+}
+
+/* line 97, /Users/andrewnam/Documents/websites/Phoenix/app/assets/stylesheets/team.scss */
+a {
+  color: black;
+}
+
+/* line 101, /Users/andrewnam/Documents/websites/Phoenix/app/assets/stylesheets/team.scss */
+a:hover {
+  color: #b30000;
+}

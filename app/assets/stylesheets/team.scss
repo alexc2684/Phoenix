@@ -1,15 +1,180 @@
-#off {
+#jason {
 	background-color: #cccccc;
 	margin: 1%;
 	height: 125px;
 	padding: 1%;
 }
-#off:hover {
-	background-color: #999999;
+
+#jason:hover {
+	background-color: transparent;
+	background: url('/images/jason.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: auto;
+	height: 250px;
 }
 
-#off:hover h6{
+#jason:hover h6{
 	visibility: visible;
+}
+
+#jason:hover h3{
+	color: white;
+	margin-top: 150px;
+}
+
+#jason:hover h5{
+	color: white;
+}
+
+#andrew {
+	background-color: #cccccc;
+	margin: 1%;
+	height: 125px;
+	padding: 1%;
+}
+
+#andrew:hover {
+	background-color: transparent;
+	background: url('/images/andrew.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: auto;
+	height: 250px;
+}
+
+#andrew:hover h6{
+	font-size: .75em;
+	visibility: visible;
+}
+
+#andrew:hover h3{
+	color: white;
+	margin-top: 150px;
+}
+
+#andrew:hover h5{
+	color: white;
+}
+
+
+#eli {
+	background-color: #cccccc;
+	margin: 1%;
+	height: 125px;
+	padding: 1%;
+}
+
+#eli:hover {
+	background-color: transparent;
+	background: url('/images/eli.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: auto;
+	height: 250px;
+}
+
+#eli:hover h6{
+	visibility: visible;
+}
+
+#eli:hover h3{
+	color: white;
+	margin-top: 150px;
+}
+
+
+#eli:hover h5{
+	color: white;
+}
+
+#ryan {
+	background-color: #cccccc;
+	margin: 1%;
+	height: 125px;
+	padding: 1%;
+}
+
+#ryan:hover {
+	background-color: transparent;
+	background: url('/images/ryan.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: auto;
+	height: 250px;
+}
+
+#ryan:hover h6{
+	visibility: visible;
+}
+
+#ryan:hover h3{
+	color: white;
+	margin-top: 150px;
+}
+
+#ryan:hover h5{
+	color: white;
+}
+
+#mahek {
+	background-color: #cccccc;
+	margin: 1%;
+	height: 125px;
+	padding: 1%;
+}
+
+#mahek:hover {
+	background-color: transparent;
+	background: url('/images/mahek.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: auto;
+	height: 250px;
+}
+
+#mahek:hover h6{
+	font-size: .8em;
+	visibility: visible;
+}
+
+#mahek:hover h3{
+	color: white;
+	margin-top: 150px;
+}
+
+#mahek:hover h5{
+	color: white;
+}
+
+#alex {
+	background-color: #cccccc;
+	margin: 1%;
+	height: 125px;
+	padding: 1%;
+}
+
+#alex:hover {
+	background-color: transparent;
+	background: url('/images/alex.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: auto;
+	height: 250px;
+}
+
+#alex:hover h6{
+	font-size: .8em;
+	visibility: visible;
+}
+
+#alex:hover h3{
+	color: white;
+	margin-top: 150px;
+}
+
+#alex:hover h5{
+	color: white;
 }
 
 #mjr3 {
@@ -18,6 +183,95 @@
 	margin: 1%;
 	padding: 2%;
 	height: 100px;
+}
+#kelvin {
+	background-color: #cccccc;
+	margin: 1%;
+	height: 125px;
+	padding: 1%;
+}
+
+#kelvin:hover {
+	background-color: transparent;
+	background: url('/images/kelvin.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: auto;
+	height: 250px;
+}
+
+#kelvin:hover h6{
+	font-size: .8em;
+	visibility: visible;
+}
+
+#kelvin:hover h3{
+	color: white;
+	margin-top: 150px;
+}
+
+#kelvin:hover h5{
+	color: white;
+}
+
+#george {
+	background-color: #cccccc;
+	margin: 1%;
+	height: 125px;
+	padding: 1%;
+}
+
+#george:hover {
+	background-color: transparent;
+	background: url('/images/george.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: auto;
+	height: 250px;
+}
+
+#george:hover h6{
+	font-size: .8em;
+	visibility: visible;
+}
+
+#george:hover h3{
+	color: white;
+	margin-top: 150px;
+}
+
+#george:hover h5{
+	color: white;
+}
+
+#katya {
+	background-color: #cccccc;
+	margin: 1%;
+	height: 125px;
+	padding: 1%;
+}
+
+#katya:hover {
+	background-color: transparent;
+	background: url('/images/katya.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: auto;
+	height: 250px;
+}
+
+#katya:hover h6{
+	font-size: .8em;
+	visibility: visible;
+}
+
+#katya:hover h3{
+	color: white;
+	margin-top: 150px;
+}
+
+#katya:hover h5{
+	color: white;
 }
 
 #mjr3 h2{
@@ -91,11 +345,12 @@
 }
 
 h6 {
+	color: white;
 	visibility: hidden;
 }
 
 a {
-	color: black;
+	color: white;
 }
 
 a:hover {
