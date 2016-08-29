@@ -22,7 +22,7 @@ class ApplicationsController < ApplicationController
 
   private
   def application_params
-     params.require(:application).permit(:first_name, :last_name, :email, :year, :major, :response_1, :response_2, :commitments, :courses, :resume)
+     params.require(:application).permit(:first_name, :last_name, :email, :year, :major, :response_1, :commitments, :courses, :resume)
   end
 
 end
