@@ -6,12 +6,24 @@
      <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body id='primary-content'>
-    <container>
-    <img src="/images/Timeline.jpg" width=60%/>
-  </container>
-  	<div class="jumbotron">
- 	 <h1> Application Portal</h1>
- 	 <p> Application Coming Soon!</p>
-	</div>
+    <% if user_signed_in? %>
+      <div class="application">
+   	    <!-- <h1> Application Portal</h1> -->
+        <div class="cognito">
+          <script src="https://services.cognitoforms.com/s/kCxuYpQgdE6epjsom-zMyw"></script>
+          <script>Cognito.load("forms", { id: "1" });</script>
+        </div>
+      </div>
+    <% else %>
+      <div>
+        <container>
+          <img src="/images/Timeline.jpg" width=60%/>
+        </container>
+        <div class="jumbotron">
+          <h1>Application Portal</h1>
+          <h3>Please login to apply!</h3>
+        </div>
+      </div>
+    <% end %>
   </body>
 </html>

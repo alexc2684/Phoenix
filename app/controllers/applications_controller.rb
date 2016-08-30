@@ -10,7 +10,7 @@ class ApplicationsController < ApplicationController
     @application = Application.new(application_params)
 
     if @application.save
-       redirect_to apply_path, notice: "Your application has already been submitted!"
+       redirect_to home_path, notice: "Your application has been submitted!"
        #maybe have the save
     else
        render "new"
