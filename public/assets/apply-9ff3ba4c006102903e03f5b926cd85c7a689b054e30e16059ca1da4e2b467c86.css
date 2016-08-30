@@ -1,0 +1,34 @@
+/* line 1, /Users/andrewnam/Documents/websites/Phoenix/app/assets/stylesheets/apply.scss */
+.jumbotron {
+  text-align: center;
+  height: 500px;
+  vertical-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* line 8, /Users/andrewnam/Documents/websites/Phoenix/app/assets/stylesheets/apply.scss */
+.jumbotron p {
+  margin: 60px;
+}
+
+/* line 12, /Users/andrewnam/Documents/websites/Phoenix/app/assets/stylesheets/apply.scss */
+.jumbotron h1 {
+  margin: 40px;
+}
+
+/* line 16, /Users/andrewnam/Documents/websites/Phoenix/app/assets/stylesheets/apply.scss */
+.cognito {
+  width: 40%;
+  margin: 0 auto;
+}
+
+/* line 21, /Users/andrewnam/Documents/websites/Phoenix/app/assets/stylesheets/apply.scss */
+.application {
+  min-height: 785px;
+}
+
+/* line 25, /Users/andrewnam/Documents/websites/Phoenix/app/assets/stylesheets/apply.scss */
+#c-submit-button {
+  position: relative;
+  left: 340px;
+}
