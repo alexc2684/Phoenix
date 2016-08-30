@@ -36,7 +36,7 @@
           <li class = "<%= 'active' if request.fullpath == '/apply' %>"><a href="/apply"> Apply </a></li>
 
         </ul>
-        <ul class="nav navbar-nav navbar-right">
+        <!-- <ul class="nav navbar-nav navbar-right">
           <% if user_signed_in? %>
             <li>
             <%= link_to('Logout', destroy_user_session_path, :method => :delete) %>
@@ -46,7 +46,7 @@
             <%= link_to('Login', new_user_session_path)  %>
             </li>
           <% end %>
-        </ul>
+        </ul> -->
       </div>
     </div>
   </nav>
