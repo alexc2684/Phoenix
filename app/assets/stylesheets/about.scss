@@ -2,6 +2,8 @@
 	padding: 20px;
 	margin: 40px;
 	background-color: #eeeeee;
+	font-size: 18px;
+	font-family: 'Raleway', sans-serif;
 }
 
 .col-md-8 {
@@ -16,11 +18,6 @@
 .col-md-4 img{
 	vertical-align: center;
 	min-height: 250px;
-}
-
-#cont {
-	font-size: 18px;
-	font-family: 'Raleway', sans-serif;
 }
 
 .row-centered {
@@ -38,4 +35,8 @@
 
 h2 {
 	color: #dddddd;
+}
+
+.presentation {
+	min-height: 500px;
 }

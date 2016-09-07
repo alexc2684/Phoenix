@@ -1,0 +1,42 @@
+<!-- <div class="well" align="left"> -->
+   <%= form_for @application, html: { multipart: true } do |f| %>
+   <!-- <div class = "col-md-6"> -->
+      <div class="starred">
+        <p><b> First Name </b><br /> <%= f.text_field :first_name %></p>
+      </div>
+      <div class="starred">
+        <p><b> Last Name </b><br /> <%= f.text_field :last_name %></p>
+      </div>
+      <div class="starred">
+        <p><b> Email </b> <br /> <%= f.text_field :email %></p>
+      </div>
+      <!-- regex for email -->
+      <div class="starred">
+        <p><b> Year </b> <br /> <%= f.text_field :year %></p>
+      </div>
+      <div class="starred">
+        <p><b> Major(s) </b> <br /> <%= f.text_field :major %> </p>
+      </div>
+      <div class="starred">
+        <p><b> GPA </b> <br id="note"> For freshman, put high school GPA  <br /> <%= f.text_field :gpa %> </p>
+      </div>
+      <p><b> Technical GPA </b> <br /> <%= f.text_field :technical_gpa %> </p>
+    <!-- </div> -->
+    <!-- <div class="col-md-6"> -->
+      <div class="starred">
+        <p><b> Commitments </b> <br /> <%= f.text_area :commitments %> </p>
+      </div>
+      <div class="starred">
+        <p><b> Courses </b> <br /> <%= f.text_area :courses %> </p>
+      </div>
+      <div class="starred">
+        <p><b> Describe the importance of the emerging bioech industry. </b> <br /> ~150 words <br /> <%= f.text_area :response_1 %> <br /></p>
+      </div>
+      <p><b> LinkedIn </b> <br /> <%= f.text_field :linkedin %> </p>
+      <div class="starred">
+        <p><b> Resume </b> <br /> <%= f.file_field :resume %> </p>
+      </div>
+    <!-- </div> -->
+    <div class="col-md-2 col-md-offset-5">
+      <%= f.submit "Submit", class: "btn btn-primary" %>
+    </div>
